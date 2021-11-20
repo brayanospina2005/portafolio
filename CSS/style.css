@@ -1,42 +1,324 @@
-body, html {
-    height: 100%;
-    background-repeat: no-repeat;
-    background: url(https://www.xtrafondos.com/wallpapers/muelle-en-noche-estrellada-4555.jpg) no-repeat center center fixed;
-    background-size: 100% 100%;
+body {
+  font-family: roboto, sans-serif;
+  line-height: 28px;
+  font-weight: 300;
+  background-color: #fff;
+  margin: 0%;
 }
-
 .section-background {
-    background: #151515 url( https://www.xtrafondos.com/wallpapers/muelle-en-noche-estrellada-4555.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-
-    position: relative;
-    text-align: center;
-    color: #fff;
+  background: url(https://www.xtrafondos.com/wallpapers/muelle-en-noche-estrellada-4555.jpg)
+    no-repeat center center fixed;
+  background-attachment: fixed;
+  background-color: #222;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+  height: 663px;
+  background-position: 50% 50%;
+  display: block;
 }
 
-.opacity {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #111111;
-    opacity: .4;
+* {
+  box-sizing: border-box;
 }
 
-.introduction {
-    vertical-align: middle;
-    text-align: center;
-    display: table-cell;
-    -webkit-transform: translateY(-2.1rem);
-    -ms-transform: translateY(-2.1rem);
-    transform: translateY(-2.1rem);
+.section-background::before {
+  box-sizing: border-box;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.introduction .introduction-container {
-    margin-left: 0%;
-    margin-right: 0%;
+.intro {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  transform: translate(0%, -50%);
+  padding: 0 15px;
+}
+
+.intro-sub {
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.intro h1 {
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+h1 {
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.intro h1 span {
+  color: #ffffff;
+}
+
+.intro p {
+  color: #f7f7f7;
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+.intro p a {
+  color: white;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.socialnetworks-icons > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 50px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+.socialnetworks-icons a i {
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  margin: 0 7px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+a > * {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#main-header {
+  background: #333;
+  color: white;
+  height: 80px;
+}
+
+#logo-header {
+  float: left;
+  padding: 15px 0 0 20px;
+  text-decoration: none;
+}
+#logo-header:hover {
+  color: #0b76a6;
+}
+
+#logo-header .site-name {
+  display: block;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+  display: block;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #999;
+}
+
+/*
+ * Navegación
+ */
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+/*nav ul li a:hover {
+  background: #0b76a6;
+}*/
+
+#main-content {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-content header,
+#main-content .content {
+  padding: 40px;
+}
+
+#main-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+#main-footer p {
+  margin: 0;
+}
+
+#main-footer a {
+  color: white;
+}
+.section-primary,
+.section-secundary,
+.section-third,
+.section-fourth,
+.section-fifth {
+  background: url(https://fondosmil.com/fondo/17010.jpg) no-repeat center center
+    fixed;
+  background-attachment: fixed;
+  background-color: #222;
+  background-size: cover;
+  padding: 0;
+  position: relative;
+  height: 663px;
+  background-position: 50% 50%;
+  display: block;
+}
+
+
+h2 {
+  color: #000000;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  margin: 0 0 1.5 rem 0;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin: 0 0 1 rem 0;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin: 0 0 2 rem 0;
+}
+
+/*footer*/
+.container-footer {
+  width: 100%;
+  padding: 40px 40px;
+  background-color: #1d1b1b;
+  margin: auto;
+}
+
+.container-footer footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-footer footer .logo-footer {
+  text-align: center;
+}
+
+.container-footer .logo-footer img {
+  width: 250px;
+}
+
+.container-footer footer .redes-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.container-footer footer .redes-footer .icon-redes-footer {
+  font-size: 20px;
+  margin: 20px;
+  background-color: #efefef;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 100%;
+  color: #a2a2a2;
+}
+
+.container-footer footer .redes-footer .fa-facebook,
+.fa-github,
+.fa-instagram {
+  margin: 20px 30px;
+  color: rgb(106, 134, 134);
+}
+.container-footer footer .redes-footer .fa-facebook:hover {
+  background-color: #0040ff;
+  color: #fff;
+}
+
+.container-footer footer .redes-footer .fa-instagram:hover {
+  background-color: linear-gradient(
+    to top right,
+    #fcde30,
+    #e9712a,
+    #d23138,
+    #ae4198,
+    #7540a1,
+    #5443a8
+  );
+  color: #fff;
+}
+
+.container-footer footer .redes-footer .fa-github:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.container-footer footer hr {
+  margin-top: 20px;
+  border: none;
+  height: 2px;
+  background-color: #464242;
+}
+
+.h4-footer {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-weight: 500;
 }

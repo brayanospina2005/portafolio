@@ -1,0 +1,121 @@
+@media (max-width: 640px) {
+  .section-background,
+  .section-primary,
+  .section-secundary,
+  .section-third {
+    height: 560 px !important;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .intro h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 766px) {
+    .intro h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .socialnetworks-icons ul {
+      margin-left: -5 px;
+    }
+  }
+  
+  @media (max-width: 766px) {
+    .socialnetworks-icons ul {
+      margin-left: 0;
+    }
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .socialnetworks-icons li {
+      padding: 0 5px;
+    }
+  }
+  
+  @media (max-width: 766px) {
+    .socialnetworks-icons li {
+      padding: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .socialnetworks-icons a i {
+      margin: 0 7px;
+    }
+  }
+  
+  @media (max-width: 766px) {
+    .socialnetworks-icons a i {
+      margin: 0 5px;
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third  > article:nth-child(-n + 1) {
+      border-top-width: 0;
+    }
+  }
+  
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third> article:nth-child(n) {
+      border-left-width: 0;
+    }
+  }
+  
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third > article:nth-child(-n + 2) {
+      border-top-width: 2 px;
+    }
+  }
+  
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third > article:nth-child(2n - 1) {
+      border-left-width: 2 px;
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third > * {
+      padding: 2 rem;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third > * {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    .section-primary, .section-secundary, .section-third > * {
+      padding: 2.5 rem;
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    .section-primary, .section-secundary, .section-third> * {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 736px) {
+    .section-primary, .section-secundary, .section-third> article .image {
+      max-width: 25 rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media screen and (max-width: 736px) {
+    .image.hobbie1 {
+      margin: 2 rem 0;
+    }
+  }
